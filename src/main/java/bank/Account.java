@@ -1,7 +1,7 @@
 package bank;
 
 public class Account {
-  
+
   private int id;
   private String type;
   private double balace;
@@ -34,6 +34,12 @@ public class Account {
 
   public void setBalace(double balace) {
     this.balace = balace;
+  }
+
+  public void deposit(double amount) {
+  }
+
+  public void withdraw(double amount) {
   }
 
 }
